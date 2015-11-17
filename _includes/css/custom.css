@@ -1,0 +1,71 @@
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(/img/filippo.jpg) no-repeat bottom center scroll;
+    // background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    // filter: grayscale(100%);
+    // -webkit-filter: grayscale(100%);
+    background-blend-mode: multiply;
+    background-color: fuchsia;
+    // background-color: {{ site.color.links }};
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:767px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 25px;
+    }
+}
+
+
+.download-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/crowd.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-blend-mode: multiply;
+    background-color: purple;
+}
+
+.hari{
+	 background: url(/img/hari1.jpg) no-repeat bottom center scroll;
+    // background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
