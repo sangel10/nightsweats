@@ -1,7 +1,7 @@
 # Site settings
 title: Night Sweats Comedy
 email: nightsweatscomedy@gmail.com
-url: https://sangel10.github.io/nightsweats
+# url: https://sangel10.github.io/nightsweats
 baseurl: https://sangel10.github.io/nightsweats
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
