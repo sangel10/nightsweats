@@ -74,6 +74,27 @@
   font-size: 3em;
 }
 
-.margin-top{
-  margin-top: 1em;
+.margin{
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.more-info{
+  padding-top:2em;
+  display: none;
+}
+
+.more-info{
+  display: block;
+}
+
+/*.teaser .get-tickets{
+  display: none;
+}*/
+
+.more{
+  color: white;
+  /*text-decoration: underline;*/
+  border-bottom: 1px solid;
+  font-size: 1.2em;
 }
