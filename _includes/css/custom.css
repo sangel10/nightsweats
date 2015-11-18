@@ -69,3 +69,7 @@
     background-size: cover;
     -o-background-size: cover;
 }
+
+.get-tickets{
+  font-size: 3em;
+}
