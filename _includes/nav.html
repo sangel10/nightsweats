@@ -26,6 +26,12 @@
                     <li>
                         <a class="page-scroll" href="/#contact">Contact</a>
                     </li>
+                    {% for network in site.social %}
+                    <li>
+                        <a href="{{ network.url }}"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name"></span></a>
+                    </li>
+                    {% endfor %}
+                </ul>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
